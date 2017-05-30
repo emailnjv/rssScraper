@@ -1,0 +1,12 @@
+Content-Type: text/html
+<!--: spam
+Content-Type: text/html
+
+<body bgcolor="#f0f0f8"><font color="#f0f0f8" size="-5"> -->
+<body bgcolor="#f0f0f8"><font color="#f0f0f8" size="-5"> --> -->
+</font> </font> </font> </script> </object> </blockquote> </pre>
+</table> </table> </table> </table> </table> </font> </font> </font><pre>Traceback (most recent call last):
+  File "/var/www/html/python-scripts/newzme.py", line 16, in &lt;module>
+    feeds = json.load(open("feeds.json"))
+FileNotFoundError: [Errno 2] No such file or directory: 'feeds.json'
+</pre>

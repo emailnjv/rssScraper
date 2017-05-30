@@ -1,0 +1,340 @@
+[
+
+  {
+       "name":"Fox News",
+        "tags": ["FOXNews.com"],
+        "url":"http://feeds.foxnews.com/foxnews/latest"
+    },
+    {
+        "name":"Reuters",
+        "tags": ["Reuters: Top News"],
+        "url":"http://feeds.reuters.com/reuters/topNews"
+    },
+    {
+        "name":"CNN",
+        "tags": ["CNN.com - RSS Channel - App International Edition"],
+        "url":"http://rss.cnn.com/rss/edition.rss"
+    },
+	{
+        "name":"NPR",
+        "tags": ["NPR"],
+        "url":"https://www.npr.org/rss/podcast.php?id=510316"
+    },
+	{
+        "name":"Associated Press",
+        "tags": ["AP Top News"],
+        "url":"http://hosted.ap.org/lineups/TOPHEADS.rss"
+    },
+	{
+        "name":"USA Today",
+        "tags": ["USA Today Top Stories"],
+        "url":"http://rssfeeds.usatoday.com/usatoday-newstopstories"
+    },
+	{
+        "name":"ABC News",
+        "tags": ["ABC News Top Stories"],
+        "url":"http://feeds.abcnews.com/abcnews/topstories"
+    },
+	{
+        "name":"Drudge Report",
+        "tags": ["Drudge Report Feed"],
+        "url":"http://feeds.feedburner.com/DrudgeReportFeed"
+    },
+	{
+        "name":"BBC News",
+        "tags": ["BBC News"],
+        "url":"http://feeds.bbci.co.uk/news/rss.xml"
+    },
+	{
+        "name":"BuzzFeed",
+        "tags": ["BuzzFeed - Community"],
+        "url":"https://www.buzzfeed.com/community/justlaunched.xml"
+    },
+	{
+        "name":"Guyism",
+        "tags": ["Guyism – BroBible"],
+        "url":"http://feeds.feedburner.com/Guyism"
+    },
+	{
+        "name":"UPROXX",
+        "tags": ["Real Stories – UPROXX"],
+        "url":"http://feeds.feedburner.com/uproxx/features"
+    }
+	,
+	{
+        "name":"The Independent",
+        "tags": ["The Independent"],
+        "url":"http://www.independentnews.com/site/rss/"
+    }
+	,
+	{
+        "name":"The Atlantic",
+        "tags": ["The Atlantic"],
+        "url":"https://www.theatlantic.com/feed/all/"
+    }
+	,
+	{
+        "name":"Newsy",
+        "tags": ["Newsy - World"],
+        "url":"http://feeds.feedburner.com/Newsy-world"
+    }
+	,
+	{
+        "name":"Huffington post",
+        "tags": ["The Huffington Post | The Full Feed"],
+        "url":"http://www.huffingtonpost.com/feeds/index.xml"
+    }
+	,
+	{
+        "name":"Raw Story",
+        "tags": ["Raw Story"],
+        "url":"http://www.rawstory.com/feed/"
+    }
+
+
+	,
+	{
+        "name":"SBnation",
+        "tags": ["SBNation.com - All Posts"],
+        "url":"http://www.sbnation.com/rss/current"
+    }
+	,
+	{
+        "name":"ESPN",
+        "tags": ["www.espn.com - TOP"],
+        "url":"http://sports.espn.go.com/espn/rss/news"
+    }
+	,
+	{
+        "name":"Sports Illustrated",
+        "tags": ["Latest News"],
+        "url":"https://www.si.com/rss/si_topstories.rss"
+    }
+	,
+	{
+        "name":"RotoWire",
+        "tags": ["RotoWire Blog"],
+        "url":"www.rotowire.com/blog/feed/"
+    }
+	,
+	{
+        "name":"Bleacher Report",
+        "tags": ["Bleacher Report - The Writers Blog"],
+        "url":"http://blog.bleacherreport.com/feed/"
+    }
+
+
+	,
+	{
+        "name":"Entertainment tonight",
+        "tags": ["ET - Latest Stories"],
+        "url":"http://feeds.feedburner.com/EtsBreakingNews"
+    }
+	,
+	{
+        "name":"Hollywood reporter",
+        "tags": ["Live Feed"],
+        "url":"http://www.hollywoodreporter.com/taxonomy/term/72/0/feed"
+    }
+	,
+	{
+        "name":"Politico",
+        "tags": ["Politics"],
+        "url": "http://www.politico.com/rss/congress.xml"
+    }
+
+	,
+	{
+        "name":"TheHill",
+        "tags": ["All news from TheHill.com"],
+        "url":"thehill.com/taxonomy/term/13/feed"
+    }
+
+
+	,
+
+	{
+        "name":"Entrepreneur",
+        "tags": ["Entrepreneur"],
+        "url":"http://feeds.feedburner.com/entrepreneur/latest"
+    }
+	,
+	{
+        "name":"CNN Money",
+        "tags": ["Economic news - CNNMoney.com"],
+        "url":"http://rss.cnn.com/rss/money_news_economy.rss"
+    }
+	,
+	{
+        "name":"Bloomberg",
+        "tags": ["Bloomberg"],
+        "url":"www.bloomberg.com/politics/feeds/site.xml"
+    }
+	,
+	{
+        "name":"Business",
+        "tags": ["Wired"],
+        "url":"https://www.wired.com/category/business/feed/"
+    },
+    {
+        "name":"Business",
+        "tags": ["MarketWatch"],
+        "url":"http://feeds.marketwatch.com/marketwatch/pf/"
+    },
+    {
+        "name":"Business",
+        "tags": ["MarketWatch"],
+        "url":"http://feeds.marketwatch.com/marketwatch/software/"
+    },
+    {
+        "name":"Business",
+        "tags": ["MarketWatch"],
+        "url":"http://feeds.marketwatch.com/marketwatch/financial/"
+    },
+    {
+        "name":"Business",
+        "tags": ["MarketWatch"],
+        "url":"http://feeds.marketwatch.com/marketwatch/topstories/"
+    },
+    {
+        "name":"Business",
+        "tags": ["Wired"],
+        "url":"https://www.wired.com/category/business/feed/"
+    },
+    {
+        "name":"Washngton Post",
+        "tags": ["business"],
+        "url":"http://feeds.washingtonpost.com/rss/business"
+    },
+
+    {
+        "name":"Foolwatch",
+        "tags": ["business"],
+        "url":"http://www.fool.com/a/feeds/foolwatchformat=rss2&id=foolwatch&apikey=foolwatch-feed"
+    },
+    {
+        "name":"CNBC",
+        "tags": ["business"],
+        "url":"http://www.cnbc.com/id/100003114/device/rss/rss.html"
+    },
+
+
+
+	{
+        "name":"Eureka Alert",
+        "tags": ["EurekAlert! - Breaking News"],
+        "url":"https://www.eurekalert.org/rss.xml"
+    }
+	,
+	{
+        "name":"ScienceAlert",
+        "tags": ["ScienceAlert"],
+        "url":"sciencealert.tumblr.com/rss"
+    }
+	,
+	{
+        "name":"Popular Science",
+        "tags": ["Popular Science"],
+        "url":"www.popsci.com/rss.xml"
+    }
+	,
+
+
+
+    {
+        "name":"Wired",
+        "tags": ["technology"],
+        "url":"https://www.wired.com/feed/"
+    },
+    {
+        "name":"CNET",
+        "tags": ["technology"],
+        "url":"https://www.cnet.com/rss/news/"
+    },
+    {
+        "name":"Gizmodo",
+        "tags": ["technology"],
+        "url":"http://feeds.gawker.com/gizmodo/full"
+    },
+    {
+        "name":"Engadget",
+        "tags": ["technology"],
+        "url":"https://www.engadget.com/rss.xml"
+    },
+    {
+        "name":"CNBC",
+        "tags": ["technology"],
+        "url":"https://www.cnbc.com/id/19854910/device/rss/rss.html"
+    },
+	{
+        "name":"TechRepublic",
+        "tags": ["TechRepublic"],
+        "url":"http://www.techrepublic.com/rssfeeds/articles/latest/"
+    },
+    {
+        "name":"PCMag",
+        "tags": ["PCMag UK"],
+        "url":"uk.pcmag.com/feed.xml"
+    },
+
+	{
+        "name":"Health.com",
+        "tags": ["Home - Health.com"],
+        "url":"http://www.health.com/home/feed"
+    },
+    {
+        "name":"acefitness",
+        "tags": ["ACE"],
+        "url":"https://www.acefitness.org/rss/"
+    },
+    {
+        "name":"Workout Dojo",
+        "tags": ["Workout Dojo"],
+        "url":"http://feeds.feedburner.com/WorkoutDojo"
+    },
+    {
+        "name":"Men's Health",
+        "tags": ["Men's Health"],
+        "url":"http://mvp.menshealth.com/feed/"
+    },
+
+
+	{
+        "name":"Outside Magazine",
+        "tags": ["Outside Magazine: All"],
+        "url":"https://www.outsideonline.com/rss/all/rss.xml"
+    },
+    {
+        "name":"Outdoor News Daily",
+        "tags": ["Outdoor News Daily"],
+        "url":"outdoornewsdaily.com/feed/"
+    },
+    {
+        "name":"Casual Living",
+        "tags": ["Casual Living"],
+        "url":"http://www.casualliving.com/rss/"
+    },
+    {
+        "name":"National Geographic",
+        "tags": ["National Geographic"],
+        "url":"http://news.nationalgeographic.com/index.rss"
+    },
+
+
+	{
+        "name":"Vogue",
+        "tags": ["Vogue"],
+        "url":"www.vogue.com/feed/"
+    },
+    {
+        "name":"InStyle",
+        "tags": ["InStyle News Feed"],
+        "url":"www.instyle.com/feeds/newsfeed.xml"
+    },
+    {
+        "name":"Glamour",
+        "tags": ["Glamour"],
+        "url":"feeds.glamour.com/glamour/glamour_all"
+    }
+
+]

@@ -1,0 +1,1 @@
+*/15 * * * * /var/www/html/python-scripts/run_crontab.sh
