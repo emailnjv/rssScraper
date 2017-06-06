@@ -1,12 +1,88 @@
 Content-Type: text/html
+
 <!--: spam
 Content-Type: text/html
 
 <body bgcolor="#f0f0f8"><font color="#f0f0f8" size="-5"> -->
 <body bgcolor="#f0f0f8"><font color="#f0f0f8" size="-5"> --> -->
 </font> </font> </font> </script> </object> </blockquote> </pre>
-</table> </table> </table> </table> </table> </font> </font> </font><pre>Traceback (most recent call last):
-  File "/var/www/html/python-scripts/newzme.py", line 16, in &lt;module>
-    feeds = json.load(open("feeds.json"))
-FileNotFoundError: [Errno 2] No such file or directory: 'feeds.json'
-</pre>
+</table> </table> </table> </table> </table> </font> </font> </font><body bgcolor="#f0f0f8">
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#6622aa">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>UnicodeDecodeError</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial">Python 3.5.2: /usr/bin/python3<br>Sat Jun  3 19:15:01 2017</font></td></tr></table>
+    
+<p>A problem occurred in a Python script.  Here is the sequence of
+function calls leading up to the error, in the order they occurred.</p>
+<table width="100%" cellspacing=0 cellpadding=0 border=0>
+<tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///var/www/html/python-scripts/newzme.py">/var/www/html/python-scripts/newzme.py</a> in <strong><module></strong>()</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;15</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;16</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;&nbsp;17</small>&nbsp;feeds&nbsp;=&nbsp;json.load(open("/var/www/html/python-scripts/feeds.json"))<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;18</small>&nbsp;fp&nbsp;=&nbsp;feedprocessor.FeedProcessor("/var/www/html/python-scripts/stopwords.json",&nbsp;logging)<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;19</small>&nbsp;stor&nbsp;=&nbsp;firebasestorage.FirebaseStorage(logging)<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090">feeds <em>undefined</em>, <strong>json</strong>&nbsp;= &lt;module 'json' from '/usr/lib/python3.5/json/__init__.py'&gt;, json.<strong>load</strong>&nbsp;= &lt;function load&gt;, <em>builtin</em> <strong>open</strong>&nbsp;= &lt;built-in function open&gt;</font></small></td></tr></table>
+<table width="100%" cellspacing=0 cellpadding=0 border=0>
+<tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///usr/lib/python3.5/json/__init__.py">/usr/lib/python3.5/json/__init__.py</a> in <strong>load</strong>(fp=&lt;_io.TextIOWrapper name='/var/www/html/python-scripts/feeds.json' mode='r' encoding='UTF-8'&gt;, cls=None, object_hook=None, parse_float=None, parse_int=None, parse_constant=None, object_pairs_hook=None, **kw={})</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;263</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;264</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"""<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;265</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;loads(fp.read(),<br>
+</tt></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;266</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cls=cls,&nbsp;object_hook=object_hook,<br>
+</tt></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;267</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;parse_float=parse_float,&nbsp;parse_int=parse_int,<br>
+</tt></td></tr>
+<tr><td><small><font color="#909090"><em>global</em> <strong>loads</strong>&nbsp;= &lt;function loads&gt;, <strong>fp</strong>&nbsp;= &lt;_io.TextIOWrapper name='/var/www/html/python-scripts/feeds.json' mode='r' encoding='UTF-8'&gt;, fp.<strong>read</strong>&nbsp;= &lt;built-in method read of _io.TextIOWrapper object&gt;, <strong>cls</strong>&nbsp;= None, <strong>object_hook</strong>&nbsp;= None, <strong>parse_float</strong>&nbsp;= None, <strong>parse_int</strong>&nbsp;= None, <strong>parse_constant</strong>&nbsp;= None, <strong>object_pairs_hook</strong>&nbsp;= None, <strong>kw</strong>&nbsp;= {}</font></small></td></tr></table>
+<table width="100%" cellspacing=0 cellpadding=0 border=0>
+<tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///usr/lib/python3.5/codecs.py">/usr/lib/python3.5/codecs.py</a> in <strong>decode</strong>(self=&lt;encodings.utf_8.IncrementalDecoder object&gt;, input=b'book\x00\x00\x00\x00mark\x00\x00\x00\x008\x00\...\xc4\x01\x00\x80\xe8\x01\x00\x00\x00\x00\x00\x00', final=True)</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;319</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;decode&nbsp;input&nbsp;(taking&nbsp;the&nbsp;buffer&nbsp;into&nbsp;account)<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;320</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data&nbsp;=&nbsp;self.buffer&nbsp;+&nbsp;input<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;321</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(result,&nbsp;consumed)&nbsp;=&nbsp;self._buffer_decode(data,&nbsp;self.errors,&nbsp;final)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;322</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;keep&nbsp;undecoded&nbsp;input&nbsp;until&nbsp;the&nbsp;next&nbsp;call<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;323</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.buffer&nbsp;=&nbsp;data[consumed:]<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090">result <em>undefined</em>, consumed <em>undefined</em>, <strong>self</strong>&nbsp;= &lt;encodings.utf_8.IncrementalDecoder object&gt;, self.<strong>_buffer_decode</strong>&nbsp;= &lt;built-in function utf_8_decode&gt;, <strong>data</strong>&nbsp;= b'book\x00\x00\x00\x00mark\x00\x00\x00\x008\x00\...\xc4\x01\x00\x80\xe8\x01\x00\x00\x00\x00\x00\x00', self.<strong>errors</strong>&nbsp;= 'strict', <strong>final</strong>&nbsp;= True</font></small></td></tr></table><p><strong>UnicodeDecodeError</strong>: 'utf-8' codec can't decode byte 0x98 in position 181: invalid start byte
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>args&nbsp;=
+('utf-8', b'book\x00\x00\x00\x00mark\x00\x00\x00\x008\x00\...\xc4\x01\x00\x80\xe8\x01\x00\x00\x00\x00\x00\x00', 181, 182, 'invalid start byte')
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>encoding&nbsp;=
+'utf-8'
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>end&nbsp;=
+182
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>object&nbsp;=
+b'book\x00\x00\x00\x00mark\x00\x00\x00\x008\x00\...\xc4\x01\x00\x80\xe8\x01\x00\x00\x00\x00\x00\x00'
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>reason&nbsp;=
+'invalid start byte'
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>start&nbsp;=
+181
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>with_traceback&nbsp;=
+&lt;built-in method with_traceback of UnicodeDecodeError object&gt;
+
+
+<!-- The above is a description of an error in a Python program, formatted
+     for a Web browser because the 'cgitb' module was enabled.  In case you
+     are not reading this in a Web browser, here is the original traceback:
+
+Traceback (most recent call last):
+  File "/var/www/html/python-scripts/newzme.py", line 17, in &lt;module&gt;
+    feeds = json.load(open("/var/www/html/python-scripts/feeds.json"))
+  File "/usr/lib/python3.5/json/__init__.py", line 265, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.5/codecs.py", line 321, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x98 in position 181: invalid start byte
+
+-->
+

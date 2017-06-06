@@ -1,25 +1,17 @@
 [
 
-  {
+    {
        "name":"Fox News",
         "tags": ["FOXNews.com"],
         "url":"http://feeds.foxnews.com/foxnews/latest"
     },
-    {
-        "name":"Reuters",
-        "tags": ["Reuters: Top News"],
-        "url":"http://feeds.reuters.com/reuters/topNews"
-    },
+
     {
         "name":"CNN",
         "tags": ["CNN.com - RSS Channel - App International Edition"],
         "url":"http://rss.cnn.com/rss/edition.rss"
     },
-	{
-        "name":"NPR",
-        "tags": ["NPR"],
-        "url":"https://www.npr.org/rss/podcast.php?id=510316"
-    },
+
 	{
         "name":"Associated Press",
         "tags": ["AP Top News"],

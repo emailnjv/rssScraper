@@ -18,8 +18,7 @@ class Permid(object):
 
         response = requests.request("POST", url, data=value.encode("utf-8"), headers=self.headers)
 
-
-        return json.loads(response.text)
+        return json.loads(response.text, "utf-8")
 
     def tag(self, word):
         self.logging.debug("accessing permid to " + word)

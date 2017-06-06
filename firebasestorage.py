@@ -3,10 +3,10 @@ import json
 import urllib.request
 import urllib.error
 
-#   TODO CHANGE FIREBASE URL
+
 class FirebaseStorage(object):
-    # https://newzme-34c77.firebaseio.com/news_data.json
-    url = "https://freelance-test-455d9.firebaseio.com/news_data.json"
+    url = ""
+
 
     def __init__(self, logging):
         self.logging = logging
